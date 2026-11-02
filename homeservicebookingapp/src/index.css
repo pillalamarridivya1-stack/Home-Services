@@ -1,0 +1,88 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML AND BODY */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fb;
+  color: #222222;
+  line-height: 1.6;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* ROOT */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BUTTONS */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* FORM ELEMENTS */
+input,
+select,
+textarea,
+button {
+  font-size: 16px;
+}
+
+input,
+select,
+textarea {
+  max-width: 100%;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.3;
+}
+
+/* IMAGES */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* SELECTION */
+::selection {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+}
+
+/* MOBILE ACCESSIBILITY */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 15px;
+  }
+}
